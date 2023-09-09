@@ -1,0 +1,132 @@
+.hero-wrapper {
+    color: white;
+    position: relative;
+    padding-bottom: 2rem;
+    width: 100%;
+    z-index: 1;
+   
+}
+
+.hero-container{
+    padding-top: 10px;
+   margin: 0 auto;
+   background-color:snow;   
+   box-shadow: 0 0px 10px 0 rgba(0,0,0,0.2);
+   
+}
+
+.image-container {
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(255, 255, 255, 0.12);
+    
+}
+
+.welcome{
+    
+    justify-content: space-around;
+    padding-left: 250px;
+    padding-top: 20px;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2);
+    background: snow;
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+     -ms-animation: fadein 2s; /* Internet Explorer */
+      -o-animation: fadein 2s; /* Opera < 12.1 */
+         animation: fadein 2s;
+}
+.welcome .primaryText{
+    font-size: 25px;
+}
+.welcome .primaryText h2{
+    font-size: 45px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+
+.image-container>img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.carousel-inner > .carousel-item > img {
+    width:900px;
+    height:600px;
+    border: 3px outset #5a73d7;
+    border-radius: 10px;
+  }
+.carousel-inner h1{
+    color: #5a73d7;
+    transform: translate(-0%, -1200%);
+    font-weight: bold;
+    background: snow;
+    border-radius: 5px;
+    
+}
+
+
+
+@media (max-width: 800px) {
+    .hero-container{
+        margin-top: 2rem;
+    }
+    .hero-title>h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .image-container{
+        width: 95%;
+        height: 25rem;
+    }
+    .status{
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    .hero-right{
+        width: 100%;
+    }
+    .stat>:nth-child(1)
+    {
+        font-size: 1.5rem;
+    }
+    .stat>:nth-child(2)
+    {
+        font-size: 0.8rem;
+    }
+    .welcome {
+        padding-left: 10px;
+        width: 100%;
+        justify-content:  center;
+    }
+    .carousel-inner > .carousel-item > img {
+        width:100%;
+        height:450px;
+        border: 4px outset #5a73d7;
+        border-radius: 10px;
+      }
+      .carousel-inner h1{
+        color: #5a73d7;
+        margin: 0 auto;
+        font-weight: bold;
+        background: snow;
+        border-radius: 5px;
+    }
+
+    .welcome .primaryText{
+        font-size: 23px;
+    }
+    .welcome .primaryText h2{
+        font-size: 40px;
+        padding-left: 70px;
+        padding-bottom: 50px;
+        font-weight: bold;
+    }
+ 
+   
+   
+}

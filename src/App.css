@@ -1,0 +1,25 @@
+.App{
+    position: absolute;
+     overflow-x: clip !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;   
+}
+.App>:nth-child(1)
+{
+    background: var(--black);
+    position: relative;
+}
+
+.body{
+    overflow: hidden !important;
+    padding: 0;
+    margin: 0;
+   
+}
+.container{
+    max-width: 100% !important;
+    overflow-x: hidden !important ;
+}
+

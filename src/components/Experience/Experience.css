@@ -1,0 +1,22 @@
+
+.award img{
+        width: 1300px;
+        height: 550px;
+        display: flex;
+        flex-direction: row;      
+}
+.award img:hover{
+    transition: .2s;
+    transform: scale(.99);
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .award img {
+      width: 100%;
+      height: 400px;
+    }
+   
+  }
